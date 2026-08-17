@@ -1,0 +1,12 @@
+MAEM Studio · Auditoría técnica V17
+
+HTML anterior: 5.55 MB
+HTML principal V17: 85.9 KB
+Logo optimizado: 110.6 KB
+
+index.html: title=62 chars | description=143 chars | H1=1 | canonical=True | robots=True | JSON-LD=True
+invitaciones-digitales/index.html: title=49 chars | description=138 chars | H1=1 | canonical=True | robots=True | JSON-LD=True
+paginas-web/index.html: title=61 chars | description=145 chars | H1=1 | canonical=True | robots=True | JSON-LD=True
+mejora-de-procesos/index.html: title=55 chars | description=146 chars | H1=1 | canonical=True | robots=True | JSON-LD=True
+proyectos/index.html: title=41 chars | description=104 chars | H1=1 | canonical=True | robots=True | JSON-LD=True
+sobre-maem/index.html: title=48 chars | description=144 chars | H1=1 | canonical=True | robots=True | JSON-LD=True
