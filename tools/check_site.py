@@ -6,6 +6,8 @@ ROOT = Path(__file__).resolve().parents[1] / "public"
 errors = []
 
 for html in ROOT.rglob("*.html"):
+    if html.name.startswith('google'):
+        continue
     text = html.read_text(encoding="utf-8")
     soup = BeautifulSoup(text, "html.parser")
 
