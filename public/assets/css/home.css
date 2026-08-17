@@ -1687,3 +1687,74 @@ footer{
 .process{
   margin-top:0;
 }
+
+
+/* ==========================================================
+   V26 · FORM CARD CLEANUP
+   ========================================================== */
+
+/* Prevent nested spans from inheriting the full card geometry. */
+.service-option > span{
+  position:relative;
+  min-height:116px;
+  align-items:flex-start;
+  justify-content:flex-end;
+  flex-direction:column;
+  text-align:left;
+  gap:5px;
+  padding:20px;
+  border:1px solid rgba(18,32,25,.12);
+  border-radius:16px;
+  background:rgba(255,255,255,.58);
+  box-shadow:0 5px 18px rgba(18,32,25,.025);
+}
+.service-option > span:hover{
+  border-color:rgba(18,32,25,.28);
+  transform:translateY(-1px);
+}
+.service-option input:focus-visible + span{
+  outline:3px solid var(--focus);
+  outline-offset:2px;
+}
+.service-option input:checked + span{
+  background:var(--forest);
+  color:#fff;
+  border-color:var(--forest);
+  box-shadow:0 14px 30px rgba(16,42,32,.15);
+}
+.service-option > span > strong{
+  font-size:12px;
+  line-height:1.25;
+  font-weight:700;
+}
+.service-option > span > small{
+  display:block;
+  max-width:250px;
+  min-height:0;
+  padding:0;
+  border:0;
+  background:transparent;
+  box-shadow:none;
+  font-size:8px;
+  line-height:1.55;
+  color:#6c7770;
+}
+.service-option input:checked + span > small{
+  color:rgba(255,255,255,.62);
+}
+
+/* Old V19 selector was broad; neutralize it for any nested span left in future. */
+.service-option > span span{
+  min-height:0;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+  transform:none;
+}
+
+/* Public legal copy should not contain internal publication notes. */
+.legal-draft-note{
+  display:none !important;
+}
