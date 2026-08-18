@@ -1837,3 +1837,41 @@ footer{
     grid-template-columns:1fr;
   }
 }
+
+
+/* ==========================================================
+   V30 · HOME — clearer and shorter
+   ========================================================== */
+.hero{
+  padding-top:106px;
+  padding-bottom:78px;
+}
+.services{
+  padding-top:76px;
+  padding-bottom:76px;
+}
+.process{
+  padding-top:72px;
+  padding-bottom:72px;
+}
+.home-about{
+  padding-top:72px;
+  padding-bottom:72px;
+}
+.cta{
+  padding-top:72px;
+  padding-bottom:72px;
+}
+.services-head .body-copy{
+  max-width:360px;
+}
+.service-card{
+  min-height:390px;
+}
+.service-card > p{
+  min-height:auto;
+  max-width:300px;
+}
+.step{
+  min-height:150px;
+}
